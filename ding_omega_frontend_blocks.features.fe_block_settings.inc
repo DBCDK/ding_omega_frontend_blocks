@@ -10,13 +10,13 @@
 function ding_omega_frontend_blocks_default_fe_block_settings() {
   $export = array();
 
-  // ding2_basetheme
+  // ding2omega
   $theme = array();
 
   $theme['ding_library-ding_menu'] = array(
     'module' => 'ding_library',
     'delta' => 'ding_menu',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-20',
     'region' => 'menu',
@@ -31,7 +31,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['ding_library-library_address'] = array(
     'module' => 'ding_library',
     'delta' => 'library_address',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-24',
     'region' => 'footer',
@@ -46,7 +46,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['ding_user_frontend-ding-user-loan-number'] = array(
     'module' => 'ding_user_frontend',
     'delta' => 'ding-user-loan-number',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-21',
     'region' => 'action_user',
@@ -61,7 +61,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['ding_user_frontend-ding-username'] = array(
     'module' => 'ding_user_frontend',
     'delta' => 'ding-username',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-24',
     'region' => 'action_user',
@@ -76,7 +76,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['locale-language'] = array(
     'module' => 'locale',
     'delta' => 'language',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-20',
     'region' => 'help',
@@ -91,7 +91,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['menu-menu-footer-menu-1'] = array(
     'module' => 'menu',
     'delta' => 'menu-footer-menu-1',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-24',
     'region' => 'footer_first',
@@ -106,7 +106,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['menu-menu-footer-menu-2'] = array(
     'module' => 'menu',
     'delta' => 'menu-footer-menu-2',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-23',
     'region' => 'footer_second',
@@ -121,7 +121,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['menu-menu-footer-menu-3'] = array(
     'module' => 'menu',
     'delta' => 'menu-footer-menu-3',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-23',
     'region' => 'footer_third',
@@ -136,7 +136,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['menu-menu-footer-menu-4'] = array(
     'module' => 'menu',
     'delta' => 'menu-footer-menu-4',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-23',
     'region' => 'footer_fourth',
@@ -151,7 +151,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['search-form'] = array(
     'module' => 'search',
     'delta' => 'form',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-22',
     'region' => 'action_search',
@@ -166,7 +166,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['system-main'] = array(
     'module' => 'system',
     'delta' => 'main',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-23',
     'region' => 'content',
@@ -181,7 +181,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['system-user-menu'] = array(
     'module' => 'system',
     'delta' => 'user-menu',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-23',
     'region' => 'action_user',
@@ -196,7 +196,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
   $theme['user-login'] = array(
     'module' => 'user',
     'delta' => 'login',
-    'theme' => 'ding2_basetheme',
+    'theme' => 'ding2omega',
     'status' => '1',
     'weight' => '-22',
     'region' => 'action_user',
@@ -208,7 +208,7 @@ function ding_omega_frontend_blocks_default_fe_block_settings() {
     'i18n_mode' => '0',
   );
 
-  $export['ding2_basetheme'] = $theme;
+  $export['ding2omega'] = $theme;
 
   $theme_default = variable_get('theme_default', 'garland');
   $themes = list_themes();
